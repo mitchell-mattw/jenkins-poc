@@ -1,0 +1,66 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminPassword": {
+            "value": "RAIL29seat123"
+        },
+        "adminUserName": {
+            "value": "jenkins"
+        },
+        "authenticationType": {
+            "value": "password"
+        },
+        "dnsPrefix": {
+            "value": "jenkins001"
+        },
+        "publicIPName": {
+            "value": "jenkins-pip"
+        },
+        "publicIPNewOrExisting": {
+            "value": "new"
+        },
+        "publicIPResourceGroup": {
+            "value": "jenkins001"
+        },
+        "storageAccountType": {
+            "value": "Premium_LRS"
+        },
+        "vmName": {
+            "value": "jenkins001"
+        },
+        "vmSize": {
+            "value": "Standard_F2s_v2"
+        },
+        "location": {
+            "value": "uksouth"
+        },
+        "jenkinsReleaseType": {
+            "value": "LTS"
+        },
+        "spType": {
+            "value": "msi"
+        },
+        "enableCloudAgents": {
+            "value": "no"
+        },
+        "vnetName": {
+            "value": "jenkins-vnet"
+        },
+        "vnetResourceGroup": {
+            "value": "jenkins001"
+        },
+        "vnetAddressPrefix": {
+            "value": "10.0.0.0/16"
+        },
+        "vnetNewOrExisting": {
+            "value": "new"
+        },
+        "subnetName": {
+            "value": "jenkins001"
+        },
+        "subnetAddressPrefix": {
+            "value": "10.0.0.0/24"
+        }
+    }
+}

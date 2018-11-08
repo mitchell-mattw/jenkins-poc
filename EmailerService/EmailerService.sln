@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailerService", "EmailerService\EmailerService.csproj", "{4072A392-19ED-464D-9051-0560C74A9DEC}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EEC4777B-35B2-4588-990C-72CAE3BA3C9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailerTests", "..\EmailerTests\EmailerTests.csproj", "{8B33B774-1256-45D3-A967-2280D84740FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4072A392-19ED-464D-9051-0560C74A9DEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4072A392-19ED-464D-9051-0560C74A9DEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4072A392-19ED-464D-9051-0560C74A9DEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4072A392-19ED-464D-9051-0560C74A9DEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEC4777B-35B2-4588-990C-72CAE3BA3C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEC4777B-35B2-4588-990C-72CAE3BA3C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEC4777B-35B2-4588-990C-72CAE3BA3C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEC4777B-35B2-4588-990C-72CAE3BA3C9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B33B774-1256-45D3-A967-2280D84740FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B33B774-1256-45D3-A967-2280D84740FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B33B774-1256-45D3-A967-2280D84740FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B33B774-1256-45D3-A967-2280D84740FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

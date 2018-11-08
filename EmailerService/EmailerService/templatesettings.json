@@ -1,0 +1,26 @@
+﻿{
+  "ServiceTypes": [
+    {
+      "ServiceType": "AscPic",
+      "NotifyTypes": [
+        {
+          "NotifyType": "Email",
+          "TemplateId": "7eaa4433-3ba4-4739-af04-f06530195839"
+        },
+        {
+          "NotifyType": "SMS",
+          "TemplateId": "xxxxxx-3ba4-4739-af04-f06530195839"
+        }
+      ]
+    },
+    {
+      "ServiceType": "GpPic",
+      "NotifyTypes": [
+        {
+          "NotifyType": "Email",
+          "TemplateId": "7e aa4433 - 3 ba4 - 4739 - af04 - f06530195839"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+az group create --name jenkinsGroup --location "uksouth"
+az group deployment create \
+  --name JenkinsDeployment \
+  --resource-group jenkinsGroup \
+  --template-file: "C:\NetDev-MyLocal\jenkins001\template.json" -TemplateParameterFile "C:\NetDev-MyLocal\jenkins001\parameters.json"
+  
+  
+  
+az group create --name jenkinsGroup --location "uksouth"
+az group deployment create \
+  --name ExampleDeployment \
+  --resource-group ExampleGroup \
+  --template-file "C:\NetDev-MyLocal\jenkins001\template.json" \
+  --parameters storageAccountType=Standard_GRS
+  
+  
+  
+  https://github.com/mitchell-mattw/jenkins-poc/blob/master/jenkins-001/template.json
+  
+  az group create --name jenkinsGroup --location "uksouth"
+  az group deployment create --name jenkDeployment  --resource-group jenkinsGroup  --template-uri "https://github.com/mitchell-mattw/jenkins-poc/blob/master/jenkins-001/template.json" --parameters storageAccountType=Standard_GRS
+  
+  
+  az group create --name jenkinsGroup --location "uksouth"
+az group deployment create --name ExampleDeployment --resource-group jenkinsGroup --template-uri "https://github.com/mitchell-mattw/jenkins-poc/blob/master/jenkins-001/template.json" 
+      --parameters "adminUserName=jenkins" \
+	--parameters "authenticationType =password" \
+	--parameters "dnsPrefix =jenkins001" 
+	
+	
+	az group create --name ExampleGroup --location "Central US" az group deployment create --name ExampleDeployment --resource-group ExampleGroup --template-uri "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json" \
+  --parameters storageAccountType=Standard_GRS
+   
+   
+az group deployment create --name ExampleDeployment --resource-group jenkins2 --template-file template.json  --parameters @"parameters.json"
+az group deployment create --name ExampleDeployment --resource-group jenkins2 --template-uri "https://raw.githubusercontent.com/mitchell-mattw/jenkins-poc/master/jenkins-001/template.json"  --parameters @"parameters.json"
+
+
+
+
+az group deployment create --name ExampleDeployment --resource-group ExampleGroup --template-uri "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json" --parameters storageAccountType=Standard_GRS
+
+
+
+az group deployment create --name ExampleDeployment --resource-group ExampleGroup --template-uri "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/101-storage-account-create/azuredeploy.json" --parameters storageAccountType=Standard_GRS
+
+
+
+
+
+
+
+
+
+

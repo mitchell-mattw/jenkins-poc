@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  emailerservice:
+    image: emailerservice
+    build:
+      context: ./EmailerService
+      dockerfile: Dockerfile
